@@ -31,7 +31,6 @@
     "@angular/forms": "^20.3.0",
     "@angular/platform-browser": "^20.3.0",
     "@angular/router": "^20.3.0",
-    "@commitlint/cz-commitlint": "^20.1.0",
     "husky": "^9.1.7",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
@@ -54,24 +53,6 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.9.2",
     "typescript-eslint": "8.46.2"
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ],
-    "rules": {
-      "references-empty": [
-        2,
-        "never"
-      ]
-    },
-    "parserPreset": {
-      "parserOpts": {
-        "issuePrefixes": [
-          "PROJ-"
-        ]
-      }
-    }
   },
   "config": {
     "commitizen": {
